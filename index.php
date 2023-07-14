@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>HOME</h1>
-
-    <!-- Echo -->
+    <!-- //% Sintassi PHP -->
+    <!--//$ Echo  -->
     <?php
         echo "Siamo in PHP <br>"; // Commento single-line
         EcHo "Hello World <br>";  #  Commento single-line
@@ -18,8 +18,6 @@
         ?>
     <h2><?= 'Hello World';?></h2>
     <?= '<h2>Hello World</h2>';?>
-
-
 
 </body>
 </html>
