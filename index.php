@@ -8,16 +8,48 @@
 <body>
     <h1>HOME</h1>
     <!-- //% Sintassi PHP -->
-    <!--//$ Echo  -->
+
     <?php
-        echo "Siamo in PHP <br>"; // Commento single-line
-        EcHo "Hello World <br>";  #  Commento single-line
-        ECHO "Hello World ";       /*
-                                    Commento multi-line
+        echo "<h1>Siamo in PHP</h1>"; // Commento single-line
+        EcHo 'Hello World'  ;       #  Commento single-line
+        ECHO "Hello World ";       /*dffgfdgs
+                                    c'è una falla da sistemare
                                   */
         ?>
-    <h2><?= 'Hello World';?></h2>
-    <?= '<h2>Hello World</h2>';?>
+    <!-- PHP o HTML -->
+    <h2><?= 'Hello World'; ?></h2>
+    <?= '<h2>Hello World</h2>'; ?>
+
+
+    <!-- Interruzione del codice -->
+    <?php /*
+    echo "<p>Codice eseguito</p>";
+    //exit("Codice interrotto da exit.");
+    die("Codice interrotto da die().");
+    echo "Codice non eseguito."; */
+    ?>
+
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
